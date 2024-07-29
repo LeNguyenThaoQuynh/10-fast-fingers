@@ -1,0 +1,7 @@
+const paragraphs = [
+    "The Targaryen dynasty is at the absolute apex of its power, with more than 10 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+    "In Rhaenyra's absence and with no word from Daemon, Rhaenys tries to keep the peace on the Black Council as Cole mounts a campaign into the Crownlands. In King's Landing, Aemond continues to undermine Aegon's fragile hold on authority.",
+    "While Rhaenyra struggles to come to terms with her son's murder, in King's Landing, Alicent grows concerned that Aegon's Small Council may lead them to an all-out war. Larys suggests Aegon needs a new Hand, and Rhaenyra arrives at a fateful decision.",
+    "House of the Dragon's fourth episode soars to new heights with a spectacle of fire and blood. This episode delivers an adrenaline-fueled, dragon-centric thrill ride that will leave you breathless.",
+    "Amid whispers of bad omens, the Greens consider how to fill a void on Aegon's Council. Jacaerys sets out on a rogue mission to strike a deal. Daemon enlists Lord Willem Blackwood to help persuade the Brackens to bend the knee.",     
+];

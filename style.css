@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Áp dụng font và reset các thuộc tính margin, padding cho tất cả các phần tử */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #FAF3F0;
+    color: #000;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh;
+    margin: 0;
+}
+
+/*----HEADER----*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.logo {
+    font-size: 25px;
+    color: transparent; /* Ẩn màu chữ để sử dụng gradient */
+    text-decoration: none;
+    font-weight: bold;
+    background: linear-gradient(135deg,#5749a9, #7656b5, #dd739d, #dd85c1);
+    background-clip: text; /* Áp dụng gradient cho văn bản */
+    -webkit-background-clip: text; /* Hỗ trợ cho các trình duyệt WebKit như Chrome và Safari */
+    transition: background-image 0.3s ease; /* Thêm hiệu ứng chuyển tiếp mượt mà */
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.navbar a:hover {
+    color: rgb(152, 6, 69);
+}
+
+/*----NỘI DUNG----*/
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* Điều chỉnh chiều rộng nếu cần */
+    max-width: 1200px; /* Điều chỉnh chiều rộng tối đa nếu cần */
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    background-image: linear-gradient(60deg, #5749a9, #7656b5, #dd739d, #dd85c1); /* Gradient mặc định */
+    background-clip: text; /* Áp dụng gradient cho văn bản */
+    -webkit-background-clip: text; /* Hỗ trợ cho các trình duyệt WebKit như Chrome và Safari */
+    color: transparent; /* Ẩn màu chữ để sử dụng gradient */
+    margin-bottom: 30px;
+    transition: background-image 0.3s ease; /* Thêm hiệu ứng chuyển tiếp mượt mà */
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* Nút bấm */
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    color: #000;
+}
+
+/* Định dạng đủ kiểu cho nút bấm */
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border: transparent;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg,#6155A6, #8E7AB5, #E493B3, #E1AFD1);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease; /*hiệu ứng chuyển tiếp mượt mà khi các thuộc tính của một phần tử thay đổi*/
+}
+
+.btn-box a:hover {
+    background: linear-gradient(135deg,#5749a9, #7656b5, #dd739d, #dd85c1); /* Đổi gradient khi hover */
+    transform: scale(1.05); /* Tăng kích thước nút khi hover */
+    color: #fff;
+}
+
+
+/*----SLIDE BAR----*/
+.sidebar {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    height: 640px;
+    width: 350px;
+    padding: 0;
+    background: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar ul li:hover {
+    background: #ededed;
+}
+
+.sidebar ul li a {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+/* Icon */
+.sidebar ul li a .fas {
+    margin-right: 20px;
+    width: 25px;
+    font-size: 25px;
+}
+
+
+
